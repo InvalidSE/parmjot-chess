@@ -22,6 +22,7 @@ def setup():
     
     # Pieces
     # Set up pieces and place them on the grid
+    
     print("Pieces")
     def lightRookLeftClick(self):
         print("light rook from left clicked")
@@ -187,11 +188,33 @@ def setup():
     pieceDarkPawn7 = QLabel(mainWindow)
     pieceDarkPawn7.setPixmap(QPixmap("images/dark-pawn.png"))
     pieceDarkPawn7.mouseReleaseEvent = darkPawn7Click
-    def darkPawn8Click(self):
-        print("dark pawn 8 clicked")
+    
+    def showAvailMoves(pieceType, gridX, gridY, side):
+        if pieceType == "pawn":
+            if side == "light":
+                if gridY == 6:
+                    availMoves = [gridY - 1, gridY - 2]
+                    return availMoves
+                else:
+                    availMoves = [gridY - 1]
+                    return availMoves
+            if side == "dark":
+                if gridY == 1:
+                    availMoves = [gridY + 1, gridY + 2]
+                    return availMoves
+                else:
+                    availMoves = [gridY - 1]
+                    return availMoves
+    
+    def pieceClick(pieceType, gridX, gridY, side):
+        print("piece Clicked")
+        print(side + " " + pieceType + " at " + str(gridX) + " " + str(gridY))
+        availMoves = showAvailMoves(pieceType, gridX, gridY, side)
+        print(availMoves)
     pieceDarkPawn8 = QLabel(mainWindow)
     pieceDarkPawn8.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn8.mouseReleaseEvent = darkPawn8Click
+    pieceDarkPawn8.mouseReleaseEvent = lambda: pieceClick("pawn", 7, 1, "dark")
+    pieceDarkPawn8.mouseReleaseEvent = darkPawn7Click("test")
     
     # set pieces on grid
     def positionPieces():
