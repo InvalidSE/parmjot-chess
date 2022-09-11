@@ -28,85 +28,85 @@ def setup():
         print("light rook from left clicked")
     pieceLightRookLeft = QLabel(mainWindow)
     pieceLightRookLeft.setPixmap(QPixmap("images/light-rook.png"))
-    pieceLightRookLeft.mouseReleaseEvent = lightRookLeftClick
+    pieceLightRookLeft.mousePressEvent = lightRookLeftClick
     def lightKnightLeftClick(self):
         print("light knight from left clicked")
     pieceLightKnightLeft = QLabel(mainWindow)
     pieceLightKnightLeft.setPixmap(QPixmap("images/light-knight.png"))
-    pieceLightKnightLeft.mouseReleaseEvent = lightKnightLeftClick
+    pieceLightKnightLeft.mousePressEvent = lightKnightLeftClick
     def lightBishopLeftClick(self):
         print("light bishop from left clicked")
     pieceLightBishopLeft = QLabel(mainWindow)
     pieceLightBishopLeft.setPixmap(QPixmap("images/light-bishop.png"))
-    pieceLightBishopLeft.mouseReleaseEvent = lightBishopLeftClick
+    pieceLightBishopLeft.mousePressEvent = lightBishopLeftClick
     
     def lightQueenLeftClick(self):
         print("light queen clicked")
     pieceLightQueen = QLabel(mainWindow)
     pieceLightQueen.setPixmap(QPixmap("images/light-queen.png"))
-    pieceLightQueen.mouseReleaseEvent = lightQueenLeftClick
+    pieceLightQueen.mousePressEvent = lightQueenLeftClick
     def lightKingLeftClick(self):
         print("light king clicked")
     pieceLightKing = QLabel(mainWindow)
     pieceLightKing.setPixmap(QPixmap("images/light-king.png"))
-    pieceLightKing.mouseReleaseEvent = lightKingLeftClick
+    pieceLightKing.mousePressEvent = lightKingLeftClick
     
     def lightBishopRightClick(self):
         print("light bishop from right clicked")
     pieceLightBishopRight = QLabel(mainWindow)
     pieceLightBishopRight.setPixmap(QPixmap("images/light-bishop.png"))
-    pieceLightBishopRight.mouseReleaseEvent = lightBishopRightClick
+    pieceLightBishopRight.mousePressEvent = lightBishopRightClick
     def lightRookRightClick(self):
         print("light rook from right clicked")
     pieceLightRookRight = QLabel(mainWindow)
     pieceLightRookRight.setPixmap(QPixmap("images/light-rook.png"))
-    pieceLightRookRight.mouseReleaseEvent = lightRookRightClick
+    pieceLightRookRight.mousePressEvent = lightRookRightClick
     def lightKnightRightClick(self):
         print("light knight from right clicked")
     pieceLightKnightRight = QLabel(mainWindow)
     pieceLightKnightRight.setPixmap(QPixmap("images/light-knight.png"))
-    pieceLightKnightRight.mouseReleaseEvent = lightKnightRightClick
+    pieceLightKnightRight.mousePressEvent = lightKnightRightClick
     
     def lightPawn1Click(self):
         print("light pawn 1 clicked")
     pieceLightPawn1 = QLabel(mainWindow)
     pieceLightPawn1.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn1.mouseReleaseEvent = lightPawn1Click
+    pieceLightPawn1.mousePressEvent = lightPawn1Click
     def lightPawn2Click(self):
         print("light pawn 2 clicked")
     pieceLightPawn2 = QLabel(mainWindow)
     pieceLightPawn2.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn2.mouseReleaseEvent = lightPawn2Click
+    pieceLightPawn2.mousePressEvent = lightPawn2Click
     def lightPawn3Click(self):
         print("light pawn 3 clicked")
     pieceLightPawn3 = QLabel(mainWindow)
     pieceLightPawn3.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn3.mouseReleaseEvent = lightPawn3Click
+    pieceLightPawn3.mousePressEvent = lightPawn3Click
     def lightPawn4Click(self):
         print("light pawn 4 clicked")
     pieceLightPawn4 = QLabel(mainWindow)
     pieceLightPawn4.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn4.mouseReleaseEvent = lightPawn4Click
+    pieceLightPawn4.mousePressEvent = lightPawn4Click
     def lightPawn5Click(self):
         print("light pawn 5 clicked")
     pieceLightPawn5 = QLabel(mainWindow)
     pieceLightPawn5.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn5.mouseReleaseEvent = lightPawn5Click
+    pieceLightPawn5.mousePressEvent = lightPawn5Click
     def lightPawn6Click(self):
         print("light pawn 6 clicked")
     pieceLightPawn6 = QLabel(mainWindow)
     pieceLightPawn6.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn6.mouseReleaseEvent = lightPawn6Click
+    pieceLightPawn6.mousePressEvent = lightPawn6Click
     def lightPawn7Click(self):
         print("light pawn 7 clicked")
     pieceLightPawn7 = QLabel(mainWindow)
     pieceLightPawn7.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn7.mouseReleaseEvent = lightPawn7Click
+    pieceLightPawn7.mousePressEvent = lightPawn7Click
     def lightPawn8Click(self):
         print("light pawn 8 clicked")
     pieceLightPawn8 = QLabel(mainWindow)
     pieceLightPawn8.setPixmap(QPixmap("images/light-pawn.png"))
-    pieceLightPawn8.mouseReleaseEvent = lightPawn8Click
+    pieceLightPawn8.mousePressEvent = lightPawn8Click
     
     # dark
     print("dark")
@@ -114,80 +114,80 @@ def setup():
         print("dark rook from left clicked")
     pieceDarkRookLeft = QLabel(mainWindow)
     pieceDarkRookLeft.setPixmap(QPixmap("images/dark-rook.png"))
-    pieceDarkRookLeft.mouseReleaseEvent = darkRookLeftClick
+    pieceDarkRookLeft.mousePressEvent = darkRookLeftClick
     def darkKnightLeftClick(self):
         print("dark knight from left clicked")
     pieceDarkKnightLeft = QLabel(mainWindow)
     pieceDarkKnightLeft.setPixmap(QPixmap("images/dark-knight.png"))
-    pieceDarkKnightLeft.mouseReleaseEvent = darkKnightLeftClick
+    pieceDarkKnightLeft.mousePressEvent = darkKnightLeftClick
     def darkBishopLeftClick(self):
         print("dark bishop from left clicked")
     pieceDarkBishopLeft = QLabel(mainWindow)
     pieceDarkBishopLeft.setPixmap(QPixmap("images/dark-bishop.png"))
-    pieceDarkBishopLeft.mouseReleaseEvent = darkBishopLeftClick
+    pieceDarkBishopLeft.mousePressEvent = darkBishopLeftClick
     
     def darkQueenLeftClick(self):
         print("dark queen clicked")
     pieceDarkQueen = QLabel(mainWindow)
     pieceDarkQueen.setPixmap(QPixmap("images/dark-queen.png"))
-    pieceDarkQueen.mouseReleaseEvent = darkQueenLeftClick
+    pieceDarkQueen.mousePressEvent = darkQueenLeftClick
     def darkKingLeftClick(self):
         print("dark king clicked")
     pieceDarkKing = QLabel(mainWindow)
     pieceDarkKing.setPixmap(QPixmap("images/dark-king.png"))
-    pieceDarkKing.mouseReleaseEvent = darkKingLeftClick
+    pieceDarkKing.mousePressEvent = darkKingLeftClick
     
     def darkBishopRightClick(self):
         print("dark bishop from right clicked")
     pieceDarkBishopRight = QLabel(mainWindow)
     pieceDarkBishopRight.setPixmap(QPixmap("images/dark-bishop.png"))
-    pieceDarkBishopRight.mouseReleaseEvent = darkBishopRightClick
+    pieceDarkBishopRight.mousePressEvent = darkBishopRightClick
     def darkRookRightClick(self):
         print("dark rook from right clicked")
     pieceDarkRookRight = QLabel(mainWindow)
     pieceDarkRookRight.setPixmap(QPixmap("images/dark-rook.png"))
-    pieceDarkRookRight.mouseReleaseEvent = darkRookRightClick
+    pieceDarkRookRight.mousePressEvent = darkRookRightClick
     def darkKnightRightClick(self):
         print("dark knight from right clicked")
     pieceDarkKnightRight = QLabel(mainWindow)
     pieceDarkKnightRight.setPixmap(QPixmap("images/dark-knight.png"))
-    pieceDarkKnightRight.mouseReleaseEvent = darkKnightRightClick
+    pieceDarkKnightRight.mousePressEvent = darkKnightRightClick
     
     def darkPawn1Click(self):
         print("dark pawn 1 clicked")
     pieceDarkPawn1 = QLabel(mainWindow)
     pieceDarkPawn1.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn1.mouseReleaseEvent = darkPawn1Click
+    pieceDarkPawn1.mousePressEvent = darkPawn1Click
     def darkPawn2Click(self):
         print("dark pawn 2 clicked")
     pieceDarkPawn2 = QLabel(mainWindow)
     pieceDarkPawn2.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn2.mouseReleaseEvent = darkPawn2Click
+    pieceDarkPawn2.mousePressEvent = darkPawn2Click
     def darkPawn3Click(self):
         print("dark pawn 3 clicked")
     pieceDarkPawn3 = QLabel(mainWindow)
     pieceDarkPawn3.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn3.mouseReleaseEvent = darkPawn3Click
+    pieceDarkPawn3.mousePressEvent = darkPawn3Click
     def darkPawn4Click(self):
         print("dark pawn 4 clicked")
     pieceDarkPawn4 = QLabel(mainWindow)
     pieceDarkPawn4.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn4.mouseReleaseEvent = darkPawn4Click
+    pieceDarkPawn4.mousePressEvent = darkPawn4Click
     def darkPawn5Click(self):
         print("dark pawn 5 clicked")
     pieceDarkPawn5 = QLabel(mainWindow)
     pieceDarkPawn5.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn5.mouseReleaseEvent = darkPawn5Click
+    pieceDarkPawn5.mousePressEvent = darkPawn5Click
     def darkPawn6Click(self):
         print("dark pawn 6 clicked")
     pieceDarkPawn6 = QLabel(mainWindow)
     pieceDarkPawn6.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn6.mouseReleaseEvent = darkPawn6Click
+    pieceDarkPawn6.mousePressEvent = darkPawn6Click
     def darkPawn7Click(self):
         print("dark pawn 7 clicked")
     pieceDarkPawn7 = QLabel(mainWindow)
     pieceDarkPawn7.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn7.mouseReleaseEvent = darkPawn7Click
+    pieceDarkPawn7.mousePressEvent = darkPawn7Click
     
     def showAvailMoves(pieceType, gridX, gridY, side):
         if pieceType == "pawn":
@@ -213,8 +213,7 @@ def setup():
         print(availMoves)
     pieceDarkPawn8 = QLabel(mainWindow)
     pieceDarkPawn8.setPixmap(QPixmap("images/dark-pawn.png"))
-    pieceDarkPawn8.mouseReleaseEvent = lambda: pieceClick("pawn", 7, 1, "dark")
-    pieceDarkPawn8.mouseReleaseEvent = darkPawn7Click("test")
+    pieceDarkPawn8.mousePressEvent = pieceClick("pawn", 7, 1, "dark")
     
     # set pieces on grid
     def positionPieces():
