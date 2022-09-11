@@ -214,6 +214,7 @@ def setup():
     pieceDarkPawn8 = QLabel(mainWindow)
     pieceDarkPawn8.setPixmap(QPixmap("images/dark-pawn.png"))
     pieceDarkPawn8.mousePressEvent = pieceClick("pawn", 7, 1, "dark")
+    #pieceDarkPawn8.mousePressEvent = darkPawn7Click("test")
     
     # set pieces on grid
     def positionPieces():
